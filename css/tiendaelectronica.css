@@ -1,0 +1,253 @@
+body {
+  font-family: 'Allerta', sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; /*se define para todo el documento*/
+
+}
+
+table {
+  width: 100%; /*Para especificar los bordes de la tabla en CSS*/
+}
+
+th {
+  background: #273b47; /*define una celda como encabezado*/
+  color: white;
+}
+
+th {
+  padding: 10px 20px;
+  text-align: left;
+}
+
+td {
+  padding: 30px;
+}
+
+table, td, th {
+  border: 1px solid #273b47;
+  border-collapse: collapse;
+}
+
+input, textarea {
+  outline: 0;
+}
+
+input:focus, textarea:focus {
+  background: lightgray;
+}
+.header figure {
+ display: inline-block;
+}
+.menu {
+  position: relative;
+  z-index: 101;
+  background-color: #1C1C1C; /* con el punto se llaman a las clases que se enunciaron en el html*/
+  padding: 0;
+  height: 110px;
+}
+.menu1 {
+font-size: 24px;
+position: relative;
+top: 20px;
+right: 0;
+float: right;
+}
+
+.menu1 li {
+  display: inline-block;
+  margin-left: 30px;
+}
+.menu1 a {
+right: auto;
+left: auto;
+}
+
+.logotipo {
+float: left;
+padding: 10px 10px 10px 10px;
+}
+.portada {
+  position: static;
+  background-color: #1C1C1C;
+  color: white;
+  padding: 0; 
+  height: 250px;
+}
+
+.portada button {
+  margin-bottom: 70px;
+}
+
+.contenedor {
+  width: 800px;
+  margin: auto;
+  position: relative;
+}
+
+.contenedor nav {
+  margin: auto;
+}
+.background {
+  background-image: #1C1C1C;
+  background-size: cover;
+}
+
+.button {
+  border-radius: 12px;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 18px;
+  background: linear-gradient(to left, #fe344e, #ff7250);
+}
+
+.productos {
+ color: #1C1C1C;
+}
+
+.productos h2 {
+font-family: 'Montserrat', sans-serif;
+font-size: 60px;
+color: #1C1C1C;
+}
+
+
+.producto {
+  margin: 10px 10px 10px 10px;
+  height: 390px;
+  padding: 10px;
+  border: 1px solid #1C1C1C;
+  border-radius: 8px;
+}
+
+
+.producto ol {
+  padding: 0;
+  margin-top: 10px;
+}
+
+.contenedor-producto-a {
+  padding-left: 20px;
+}
+
+.contenedor-producto-b {
+  margin-left: 370px;
+  position: relative;
+}
+
+.derecha {
+  float: right;
+  position: relative;
+  top: 45px;
+}
+
+.izquierda {
+  float: left;
+  position: relative;
+  top: 80px;
+}
+
+.titulo {
+  padding-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70px;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+
+.titulo span {
+  text-decoration: underline;
+}
+
+.title-a {
+	font-size: 24px;
+  margin: 10px 20px 25px 10px;
+}
+
+.title-b {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+/*formulario*/
+
+.footer {
+  background: #1C1C1C;
+  padding: 50px 10px;
+}
+
+.contacto {
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.contacto img {
+  display: block;
+}
+
+.contacto strong {
+  display: block;
+}
+
+.contacto a {
+  color: white;
+  text-decoration: none;
+  margin: 10px 10px 10px 0;
+}
+
+
+.footer .contenedor {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.formulario {
+  display: flex;
+  width: 400px;
+  color: white;
+}
+
+
+.col1, .col2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.col1 {
+  margin-right: 15px;
+}
+.col2 {
+  align-items: flex-start;
+}
+
+.col2 .button {
+  margin-top: 15px;
+}
+
+.intereses label {
+  font-size: 12px;
+}
+
+.formulario label, .sexo, .intereses {
+  margin-bottom: 10px;
+}
+
+
+.sexo {
+  margin-top: 10px;
+}
+
+
+.tabla {
+  margin: 50px 0;
+}
+
